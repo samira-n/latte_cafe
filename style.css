@@ -1,0 +1,320 @@
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+/* first_content start */
+
+.first_content{
+    background: #4A2B33;
+    height: 100%;
+    padding: 56px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    color: #D27487;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.links img{
+    margin-left: 20px;
+}
+
+.header{
+    padding-bottom: 56px;
+}
+
+.header_img img{
+    width: 100%;
+    
+}
+
+/* first_content end */
+
+/* second_content start */
+.second_content{
+    height: 713px;
+}
+
+.sec_title{
+    color: #222222;
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.sec_desc{
+    color: #222222;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.about_us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 250px;
+}
+/* second_content end */
+
+/* third_content start */
+
+.third_content{
+    background-color: #E9E9E3;
+    height: 1227px;
+    padding: 56px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left_menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.food_menu{
+    width: 531px;
+    height: 58px;
+    margin-top: 74px;
+    border-color: #6F6F64;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.drinks_menu{
+    width: 531px;
+    height: 58px;
+    margin-top: 12px;
+    border-color: #6F6F64;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.takeaway_menu{
+    width: 531px;
+    height: 58px;
+    margin-top: 12px;
+    border-color: #6F6F64;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.food_menu:hover{
+    background-color: #6F6F64;
+    color: #fff;
+}
+
+.drinks_menu:hover{
+    background-color: #6F6F64;
+    color: #fff;
+}
+
+.takeaway_menu:hover{
+    background-color: #6F6F64;
+    color: #fff;
+}
+
+.menu_desc{
+    font-size: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.menu_title{
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.right_menu{
+    margin-left: 20px;
+}
+
+/* third_content end */
+
+/* fourth_content start */
+
+.fourth_content{
+    height: 473px;
+    background-color: #AA9E54;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+.first_column{
+    color: #fff;
+}
+
+.second_column{
+    color: #fff;
+}
+
+.third_column{
+    color: #fff;
+}
+.fourth_desc{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+
+.fourth_desc_2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+
+.fourth_title{
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+/* fourth_content end */
+
+/* fifth_content start */
+
+.fifth_content {
+    align-items: center;
+    padding: 152px;
+    width: 840px;
+    height: 673px;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    gap: 40px 20px;
+  }
+
+.img1 {
+  display: block;
+
+ } 
+
+.img2 {
+ display: block;
+ grid-row: 2 / 3;
+} 
+
+.img3 {
+   display: block;
+   width: 400px;
+   grid-row : 1 / 3;
+   grid-column: 3 / 5; 
+  } 
+/* fifth_content end */
+
+/* sixth_content start */
+
+.sixth_content{
+    padding: 56px;
+    height: 461px;
+    background-color: #4A2B33;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.left_text{
+    max-width: 420px;
+    color: #D27487;
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+}
+
+.right_text{
+    color:#D27487;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 600px;
+}
+/* sixth_content end */
+
+/* seventh start*/
+
+.seventh_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 56px;
+    padding-bottom: 39px;
+}
+.down_footer{
+    color: #696969;
+    display: flex;
+}
+
+.down_footer p{
+    margin-left: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.top_footer{
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.top_footer p{
+    margin-left: 32px;
+}
+
+.center_footer{
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+
+.center_footer p{
+    margin-left: 32px;
+}
+
+/* seventh end*/
